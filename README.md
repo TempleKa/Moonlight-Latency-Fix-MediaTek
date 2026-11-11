@@ -98,11 +98,10 @@ The notification remains present after **Stop**, so optimization can be restarte
 - The CPU worker may fail if `taskset`, CPU affinity, or the requested scheduling behavior is restricted.
 - Android may stop or restrict foreground services under some conditions.
 - The notification reports the worker's state, **not proof** that Moonlight performance improved.
-- Google Play distribution may require additional review and justification for the foreground service type (`specialUse`).
 
 ## Project status
 
-**Experimental / community testing welcome.** Currently verified only on the device listed above. Results from other chipsets are especially useful.
+**Experimental.** Currently verified only on the device listed above.
 
 ## License
 
