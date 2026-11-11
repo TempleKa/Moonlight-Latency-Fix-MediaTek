@@ -32,7 +32,7 @@ These are *requested* sleep intervals, not guaranteed scheduling periods or fixe
 
 The project targets **Android 8.0+ (API 26+)** at the application level. This is a build requirement, **not a guarantee** that the optimization works on every Android 8.0+ device.
 
-The mechanism is not MediaTek-specific. It may work on other MediaTek chipsets and on Snapdragon, Exynos, Tensor, or other Android devices, but those platforms have not been verified.
+The mechanism is not MediaTek and Samsung Galaxy Tab A11 specific. It may work on other chipsets, or other Android devices, but those platforms have not been verified.
 
 The device must provide a usable `taskset` command and allow the app's worker process to execute on CPU 0. Android CPU affinity restrictions, background policies, and vendor power management may prevent operation or limit its effect.
 
