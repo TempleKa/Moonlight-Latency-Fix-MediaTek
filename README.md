@@ -70,8 +70,6 @@ To install with ADB from PowerShell, run this from the directory containing `adb
 .\adb install -r "path\to\app-debug.apk"
 ```
 
-For public distribution, build and sign a **release APK** using a private signing key. Never commit signing keys or passwords.
-
 ## How to use
 
 1. Open the app and grant notification permission when prompted. Once permission is granted, the app initializes its persistent notification with controls.
