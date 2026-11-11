@@ -85,7 +85,7 @@ To install with ADB from PowerShell, run this from the directory containing `adb
 - **Exit:** stops the worker and removes the foreground notification.
 - **Tap notification:** opens the app.
 
-The notification remains present after **Stop**, so optimization can be restarted without reopening the app. Use **Exit** to remove it. Android may collapse or rearrange notification actions depending on the device.
+The notification remains present after **Stop**, so optimization can be restarted without reopening the app and without quitting Moonlight stream by just swiping down from top. Use **Exit** to remove it. Android may collapse or rearrange notification actions depending on the device.
 
 ## Limitations and safety
 
