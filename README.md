@@ -56,8 +56,6 @@ This is the development/test device, **not an exclusive compatibility list**. Re
 3. Install the APK on your Android device (you may need to allow installation from that source).
 4. Open **Moonlight Latency Fix** and allow notification permission if prompted. The app waits for the permission result before initializing its notification. You can then start optimization normally.
 
-**Note:** This source repository does not automatically include a prebuilt APK. A release must be created and an APK uploaded separately.
-
 ### Build from source
 
 1. Open the Android Studio project in **Android Studio**.
