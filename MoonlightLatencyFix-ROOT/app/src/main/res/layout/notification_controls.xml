@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="4dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <TextView android:layout_width="58dp" android:layout_height="wrap_content" android:text="CPU" android:textStyle="bold" android:textColor="#FFFFFF" android:textSize="13sp"/>
+        <TextView android:id="@+id/cpu_off" android:layout_width="0dp" android:layout_weight="1" android:layout_height="40dp" android:gravity="center" android:text="OFF" android:textColor="#FFFFFF" android:background="#B93B45" android:layout_margin="2dp"/>
+        <TextView android:id="@+id/cpu_boost" android:layout_width="0dp" android:layout_weight="1" android:layout_height="40dp" android:gravity="center" android:text="BOOST" android:textColor="#FFFFFF" android:background="#218C50" android:layout_margin="2dp"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="44dp" android:gravity="center_vertical" android:orientation="horizontal">
+        <TextView android:layout_width="58dp" android:layout_height="wrap_content" android:text="Refresh" android:textStyle="bold" android:textColor="#FFFFFF" android:textSize="12sp"/>
+        <TextView android:id="@+id/ref_auto" android:layout_width="0dp" android:layout_weight="1" android:layout_height="40dp" android:gravity="center" android:text="AUTO" android:textColor="#FFFFFF" android:background="#55555B" android:layout_margin="2dp"/>
+        <TextView android:id="@+id/ref_60" android:layout_width="0dp" android:layout_weight="1" android:layout_height="40dp" android:gravity="center" android:text="60 Hz" android:textColor="#FFFFFF" android:background="#55555B" android:layout_margin="2dp"/>
+        <TextView android:id="@+id/ref_90" android:layout_width="0dp" android:layout_weight="1" android:layout_height="40dp" android:gravity="center" android:text="90 Hz" android:textColor="#FFFFFF" android:background="#55555B" android:layout_margin="2dp"/>
+    </LinearLayout>
+</LinearLayout>
