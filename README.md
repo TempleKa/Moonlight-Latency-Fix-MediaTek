@@ -64,7 +64,7 @@ This is the development/test device, **not an exclusive compatibility list**. Re
 ### From a GitHub Release
 
 1. Open this repository's **Releases** page.
-2. Download the APK attached to a published release, if available.
+2. Download the APK attached to a published release.
 3. Install the APK on your Android device (you may need to allow installation from that source).
 4. Open **Moonlight Latency Fix** and allow notification permission if prompted. The app waits for the permission result before initializing its notification. You can then start optimization normally.
 
