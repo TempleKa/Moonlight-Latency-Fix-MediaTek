@@ -7,10 +7,18 @@
 | **Moonlight Latency Fix (original)** | **No** | Periodically activates **CPU 0** using a small CPU-affined shell loop to influence scheduling and reduce decoding latency. Offers Normal, Boost, and Compute Boost activity modes. |
 | **MoonlightLatencyFix-ROOT** | **Yes** | Directly adjusts the **minimum CPU frequencies** of the Little and Big clusters, with independent CPU governor and display refresh-rate controls. It does **not** use the original CPU 0 activity loops. |
 
-**They are not simply root and non-root builds of the same optimization.** The original app relies on periodic CPU activity, while the ROOT edition changes CPU frequency policy through privileged system interfaces. They are maintained **together in this repository**, use different Android package IDs, and can be installed side by side. Neither modifies Moonlight itself.
+**They are not just root and non-root builds of the same optimization.** The original app relies on periodic CPU activity, while the ROOT edition changes CPU frequency policy through privileged system interfaces. They are maintained **together in this repository**, use different Android package IDs, and can be installed side by side. Neither modifies Moonlight itself.
 
 > [!IMPORTANT]
 > Both editions are experimental workarounds, not official Moonlight features. Lower latency is **not guaranteed**. Results depend on the device, Android version, CPU scheduler, kernel, and power management. The ROOT edition naturally requires a rooted device.
+
+## About this project
+
+I'm not a developer and have very limited programming knowledge. I built and tested this utility with the help of ChatGPT, which guided me through implementation, testing, debugging, and different optimization approaches.
+
+The project grew out of experiments on my Samsung Galaxy Tab A11, which I bought primarily for streaming games from my PC. After trying a non-root workaround that periodically wakes CPU0, I wanted to explore whether direct CPU and refresh-rate controls could improve Moonlight decoding behavior further.
+
+The ROOT version is a separate experimental approach. It does not use the same CPU0 wake-up loop as the non-root app. Some technical explanations may not be entirely accurate, and results on other devices are unknown. :)
 
 ## Repository layout
 
