@@ -1,6 +1,6 @@
 # Moonlight Latency Fix
 
-**Two experimental Android apps for Moonlight game streaming.** This repository contains both **Moonlight Latency Fix** (non-root) and **MoonlightLatencyFix-ROOT**. They target the same latency problem through **two fundamentally different optimization methods**, not merely different permission levels. Development and manual testing have focused on the Samsung Galaxy Tab A11 (SM-X130), powered by the MediaTek Helio G99.
+**Two experimental Android apps for Moonlight game streaming.** This repository contains both **Moonlight Latency Fix** (non-root) and **MoonlightLatencyFix-ROOT**. They target the same latency problem through **two fundamentally different optimization methods**. Development and manual testing have focused on the Samsung Galaxy Tab A11 (SM-X130), powered by the MediaTek Helio G99.
 
 | Edition | Root required? | How it works |
 | --- | --- | --- |
