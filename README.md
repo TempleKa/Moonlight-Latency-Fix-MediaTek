@@ -18,7 +18,11 @@ I'm not a developer and have very limited programming knowledge. I built and tes
 
 The project grew out of experiments on my Samsung Galaxy Tab A11, which I bought primarily for streaming games from my PC. After trying a non-root workaround that periodically wakes CPU0, I wanted to explore whether direct CPU and refresh-rate controls could improve Moonlight decoding behavior further.
 
-The ROOT version is a separate experimental approach. It does not use the same CPU0 wake-up loop as the non-root app. Some technical explanations may not be entirely accurate, and results on other devices are unknown. :)
+The ROOT version is a separate experimental approach. It does not use the same CPU0 wake-up loop as the non-root app. This edition is currently designed specifically for the Samsung Galaxy Tab A11 (SM-X130) with the MediaTek Helio G99. Its CPU policies and frequency settings are not automatically adapted to other processors or devices.
+
+I would eventually like to expand compatibility to other MediaTek devices by implementing automatic CPU policy detection and device-specific frequency handling. However, this is only a future goal, and the current version should not be considered compatible with other devices.
+
+Some technical explanations may not be entirely accurate, and results on other devices are unknown. :)
 
 ## Repository layout
 
@@ -46,6 +50,8 @@ The original experimental utility that periodically wakes CPU0 to improve decodi
 **Moonlight Latency Fix ROOT v1.0.0**
 
 A separate experimental utility that directly controls CPU minimum frequencies, CPU governors, and display refresh rate. Root access is required.
+
+> **Compatibility warning:** The current ROOT version was developed and tested exclusively on the Samsung Galaxy Tab A11 (SM-X130, MediaTek Helio G99). CPU policies, BOOST frequencies, and refresh-rate controls are currently device-specific. Using this version on other devices is not recommended.
 
 [**Download ROOT APK**](https://github.com/TempleKa/Moonlight-Latency-Fix-MediaTek/releases/download/root-v1.0.0/MoonlightLatencyFix-ROOT.apk)
 
