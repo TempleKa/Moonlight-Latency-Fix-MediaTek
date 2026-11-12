@@ -29,7 +29,7 @@ Some technical explanations may not be entirely accurate, and results on other d
 Both applications belong in **this same GitHub repository**, with a shared root `README.md` and separate Android Studio project directories:
 
 ```text
-MoonlightLatencyFix/
+Moonlight-Latency-Fix-MediaTek/
 ├── README.md
 ├── MoonlightLatencyFix/         # Original non-root Android Studio project
 └── MoonlightLatencyFix-ROOT/    # Root Android Studio project
