@@ -51,7 +51,8 @@ The original experimental utility that periodically wakes CPU0 to improve decodi
 
 A separate experimental utility that directly controls CPU minimum frequencies, CPU governors, and display refresh rate. Root access is required.
 
-> **Compatibility warning:** The current ROOT version was developed and tested exclusively on the Samsung Galaxy Tab A11 (SM-X130, MediaTek Helio G99). CPU policies, BOOST frequencies, and refresh-rate controls are currently device-specific. Using this version on other devices is not recommended.
+> [!WARNING]
+> The current ROOT version was developed and tested exclusively on the Samsung Galaxy Tab A11 (SM-X130, MediaTek Helio G99). CPU policies, BOOST frequencies, and refresh-rate controls are currently device-specific. Using this version on other devices is not recommended.
 
 [**Download ROOT APK**](https://github.com/TempleKa/Moonlight-Latency-Fix-MediaTek/releases/download/root-v1.0.0/MoonlightLatencyFix-ROOT.apk)
 
