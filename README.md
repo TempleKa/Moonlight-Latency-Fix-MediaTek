@@ -30,9 +30,9 @@ Both applications belong in **this same GitHub repository**, with a shared root 
 
 ```text
 Moonlight-Latency-Fix-MediaTek/
-├── README.md
+├── MoonlightLatencyFix-ROOT/    # Root Android Studio project
 ├── MoonlightLatencyFix/         # Original non-root Android Studio project
-└── MoonlightLatencyFix-ROOT/    # Root Android Studio project
+└── README.md
 ```
 
 Each directory contains its own Gradle configuration and Android application. Open the appropriate **subdirectory** in Android Studio to build that edition. The apps are independent at runtime, but **not separate GitHub repositories**.
