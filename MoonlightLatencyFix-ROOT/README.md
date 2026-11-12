@@ -55,9 +55,10 @@ AUTO does **not** necessarily mean the screen is currently displaying 60 Hz. The
 
 ## Compatibility
 
-**Root access is mandatory.** The utility needs permission to write CPU frequency and governor controls and to modify Android refresh-rate settings.
+> [!WARNING]
+> This version is specifically designed for the Samsung Galaxy Tab A11 (SM-X130) with the MediaTek Helio G99. It uses fixed CPU policy paths and BOOST frequencies that may not be supported by other devices. Do not assume compatibility with other MediaTek processors, even if they use a similar CPU architecture.
 
-The implementation and frequency values are based on the tested Samsung Galaxy Tab A11. Other devices may use different CPU policy paths, supported frequencies, governors, or refresh-rate settings. Compatibility with other devices has not been verified.
+**Root access is mandatory.** The utility needs permission to write CPU frequency and governor controls and to modify Android refresh-rate settings.
 
 ### Tested device
 
