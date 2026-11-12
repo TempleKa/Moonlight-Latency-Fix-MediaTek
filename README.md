@@ -35,8 +35,19 @@ Each directory contains its own Gradle configuration and Android application. Op
 
 ## Choose an edition
 
-- **Non-root:** use the CPU 0 activity-loop approach, without granting root access.
-- **ROOT:** use direct CPU minimum-frequency controls, plus optional governor and refresh-rate controls, on a supported rooted device.
+### Non-root edition
+**Moonlight Latency Fix v1.0.0**
+
+The original experimental utility that periodically wakes CPU0 to improve decoding latency and frame pacing. No root access required.
+
+[**Download Non-root APK**](https://github.com/TempleKa/Moonlight-Latency-Fix-MediaTek/releases/download/v1.0.0/MoonlightLatencyFix.apk)
+
+### ROOT edition (Experimental)
+**Moonlight Latency Fix ROOT v1.0.0**
+
+A separate experimental utility that directly controls CPU minimum frequencies, CPU governors, and display refresh rate. Root access is required.
+
+[**Download ROOT APK**](https://github.com/TempleKa/Moonlight-Latency-Fix-MediaTek/releases/download/root-v1.0.0/MoonlightLatencyFix-ROOT.apk)
 
 ## Original edition: Moonlight Latency Fix (no root)
 
