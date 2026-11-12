@@ -7,6 +7,18 @@ Moonlight Latency Fix attempts to improve decoding latency and frame pacing by k
 > [!IMPORTANT]
 > This is an experimental workaround, not an official Moonlight feature. It does not modify Moonlight, and lower latency is **not guaranteed**. Compatibility and results depend on the device, Android build, CPU scheduler, and power-management behavior.
 
+## About this project
+
+I'm not a developer and have very limited programming knowledge. I created Moonlight Latency Fix with the help of ChatGPT, which also guided me through testing, debugging, and experimenting with different optimization approaches.
+
+The project started as a personal experiment after I bought a Samsung Galaxy Tab A11 primarily for streaming games from my PC and was disappointed by its decoding latency in Moonlight.
+
+During testing, I noticed that periodically waking up a CPU core through a lightweight background process seemed to improve decoding latency and frame pacing without requiring root access or modifying Moonlight itself.
+
+I also experimented with CPU affinity and running the background process on different CPU cores. Several cores appeared to produce improvements, although not all of them. I eventually settled on CPU0, which is what the current utility uses.
+
+This is an experimental project developed with AI assistance, not a professionally developed or extensively tested application. Results may vary between devices, and some of my technical explanations might not be entirely accurate. :)
+
 ## Features
 
 - Three selectable CPU 0 activity modes
